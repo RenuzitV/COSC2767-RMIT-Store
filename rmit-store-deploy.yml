@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: store-app
-          image: 959445117732.dkr.ecr.us-east-1.amazonaws.com/rmitstore
+          image: 3750945/rmitstore
           ports:
             - containerPort: 80
 
