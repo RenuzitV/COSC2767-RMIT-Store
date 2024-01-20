@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: store-app
-          image: 3750945/rmitstore
+          image: 3750945/rmitstore:latest
           ports:
             - containerPort: 80
 
