@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: store-app-deploy
-  namespace: store-app
   labels:
     name: store-app-deploy
     app: demo-store-app
@@ -16,7 +15,6 @@ spec:
   template:
     metadata:
       name: store-app-pod
-      namespace: store-app
       labels:
         name: store-app-pod
         app: demo-store-app
