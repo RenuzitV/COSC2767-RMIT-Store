@@ -16,6 +16,7 @@ spec:
   template:
     metadata:
       name: store-app-pod
+      namespace: store-app
       labels:
         name: store-app-pod
         app: demo-store-app
