@@ -90,7 +90,7 @@
             <div class="row rmit-product-section">
               <?php
               $link = mysqli_connect(
-                  "db-service",
+                  "db-servicee",
                   "db_admin",
                   "rmit_password",
                   "rmit_store_db"
@@ -141,7 +141,7 @@
         <footer class="footer_area row">
             <div class="container custom-container">
                 <div class="copy_right_area">
-                    <h4 class="copy_right">© Copyright 2022 RMIT Vietnam | Made with ❤️ and a bit of Love for Mr. Tom!</h4>
+                    <h4 class="copy_right">© Copyright 2022 RMIT Vietnam | Made with ❤️ and a bit of ❤️❤️❤️❤️❤️❤️ for Mr. Tom!</h4>
                 </div>
             </div>
         </footer>
